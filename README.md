@@ -1,10 +1,10 @@
-# Web Development Project 5 - *Data Dashboard*
+# Web Development Project 5 - *Fish Finder*
 
 Submitted by: **Kyle Jhong**
 
-This web app: **IS UNFINISHED AND WILL BE RESUBMITTED BY EXTENSION DEADLINE**
+This web app: **is an app you can use to view different fish species!**
 
-Time spent: **0** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
@@ -14,10 +14,10 @@ The following **required** functionality is completed:
   - The dashboard should display at least 10 unique items, one per row
   - The dashboard includes at least two features in each row
 - [X] **`useEffect` React hook and `async`/`await` are used**
-- [ ] **The app dashboard includes at least three summary statistics about the data** 
+- [X] **The app dashboard includes at least three summary statistics about the data** 
   - The app dashboard includes at least three summary statistics about the data, such as:
     - *Total number of fish*
-    - *Total number of fish families*
+    - *Number of unique fish families*
     - *Most common fish family*
 - [X] **A search bar allows the user to search for an item in the fetched data**
   - The search bar **correctly** filters items in the list, only displaying items matching the search query
@@ -36,16 +36,16 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [X] Added responsive CSS styling using blur effects for a glass design.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Codepath Data Dashboard.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with Licecap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -53,7 +53,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The biggest challenge while creating this app was managing the number of API Requests I get while debugging the app. I decided to create a json file with the data to reduce API calls, and switched back to calling the API later.
 
 ## License
 

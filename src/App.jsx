@@ -139,9 +139,9 @@ function App() {
 
   useEffect(() => {
     const requestAPI = async () => {
-      //const response = await fetch(url, options);
-      //const json = await response.json();
-      const json = jsonData;
+      const response = await fetch(url, options);
+      const json = await response.json();
+      //const json = jsonData; (to conserve api requests was previously using a json file to test)
       if (json) {
         const filteredJson = json.filter((fish) => {
           return fish.img_src_set !== undefined && 
@@ -182,7 +182,6 @@ function App() {
         <div className="container">
           <div className="header">
             <div>Fish Finder</div>
-            <div>Dashboard</div>
             <div>Dashboard</div>
           </div>
           <div className="statistics">
