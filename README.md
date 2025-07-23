@@ -90,10 +90,9 @@ The following **required** functionality is completed:
   - *To ensure an accurate grade, your sidebar **must** be viewable when showing the details view in your recording.*
 - [X] **Each detail view of an item has a direct, unique URL link to that item’s detail view page**
   -  *To ensure an accurate grade, the URL/address bar of your web browser **must** be viewable in your recording.*
-- [ ] **The app includes at least two unique charts developed using the fetched data that tell an interesting story**
+- [X] **The app includes at least two unique charts developed using the fetched data that tell an interesting story**
   - At least two charts should be incorporated into the dashboard view of the site
   - Each chart should describe a different aspect of the dataset
-
 
 The following **optional** features are implemented:
 
@@ -101,7 +100,6 @@ The following **optional** features are implemented:
   - e.g., an additional description, graph annotation, suggestion for which filters to use, or an additional page that explains more about the data
 - [ ] The site allows users to toggle between different data visualizations
   - User should be able to use some mechanism to toggle between displaying and hiding visualizations 
-
   
 The following **additional** features are implemented:
 
@@ -111,7 +109,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Codepath Data Dashboard 2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -122,11 +120,11 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Adding the bar graph was particularly challenging. When too many fish were loaded, there were too many 1-frequency fish species that cluttered the graph, so I added logic to prune out the 1-frequency and 2-frequency fish species when there were more than 20 entries.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2025 Kyle Jhong
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
