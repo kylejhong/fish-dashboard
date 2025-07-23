@@ -77,7 +77,7 @@ Submitted by: **Kyle Jhong**
 
 This web app: **is an app you can use to view different fish species!**
 
-Time spent: **6** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
@@ -112,7 +112,7 @@ Here's a walkthrough of implemented user stories:
 <img src='Codepath Data Dashboard 2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with Licecap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
